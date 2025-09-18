@@ -31,6 +31,7 @@ if (customerType === "regular") {
 } else {
     memberDiscount = 0.0; // No additional discount for non-members
 if (customerType === "regular") {
+    
 if (customerType === "member") {
     memberDiscount = 0.05; // Additional 5% discount for members
 } else {
