@@ -26,10 +26,16 @@ switch (product.category) {
 }
 // customer type
 }
+if (customerType === "regular") {
+    memberDiscount = 0.05; // Additional 5% discount for members
+} else {
+    memberDiscount = 0.0; // No additional discount for non-members
+if (customerType === "regular") {
 if (customerType === "member") {
     memberDiscount = 0.05; // Additional 5% discount for members
 } else {
     memberDiscount = 0.0; // No additional discount for non-members
 if (customerType === "member") {
-
-    
+coast customers = {
+    {id: 1, customerType: "regular", type: "member"},
+    {id: 2, name: "Bob", type: "non-member"},
